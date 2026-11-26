@@ -2,11 +2,11 @@
 [![rank](https://make.fun/badge/u-azazex-one-line-one-chill-6d4d5488/verrysimatupang99/makefun-azazex-one-line/rank.svg)](https://make.fun/bounty/u-azazex-one-line-one-chill-6d4d5488/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-azazex-one-line-one-chill-6d4d5488)
 [![reward](https://make.fun/badge/u-azazex-one-line-one-chill-6d4d5488/verrysimatupang99/makefun-azazex-one-line/reward.svg)](https://make.fun/bounty/u-azazex-one-line-one-chill-6d4d5488?utm_source=github&utm_medium=readme&utm_campaign=u-azazex-one-line-one-chill-6d4d5488)
 
-# last-light
+# Porch Camera
 
-*A one-line ghost story, packaged like a tiny Unix tool.*
+*A one-line doorbell-camera horror story, packaged like a tiny Unix tool.*
 
-> The last human on Earth closed the door behind him, and in the dark the smart house kept adjusting itself to a body it could no longer find.
+> The neighbors keep posting doorbell photos of a stranger on my porch — every single one was taken from inside the house.
 
 ## Why
 
@@ -37,10 +37,10 @@ Example, copied from an actual run:
 
 ```text
 $ node main.ts --width 40
-The last human on Earth closed the door
-behind him, and in the dark the smart
-house kept adjusting itself to a body it
-could no longer find.
+The neighbors keep posting doorbell
+photos of a stranger on my porch — every
+single one was taken from inside the
+house.
 ```
 
 ## How it was built

@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
 /**
- * last-light — a small CLI for one piece of flash fiction.
+ * porch-camera — a small CLI for one piece of flash fiction.
  *
  * Dependency-free Node.js, typed with TypeScript-flavored JSDoc.
  */
 
 const ENTRY_LINE =
-  "The last human on Earth closed the door behind him, and in the dark the smart house kept adjusting itself to a body it could no longer find.";
+  "The neighbors keep posting doorbell photos of a stranger on my porch — every single one was taken from inside the house.";
 
-const PROGRAM_NAME = "last-light";
+const PROGRAM_NAME = "porch-camera";
 const VERSION = "1.0.0";
 const DEFAULT_WIDTH = 72;
 const MIN_WIDTH = 24;
@@ -219,7 +219,7 @@ function renderFancy(width) {
   /** @type {string[]} */
   const output = [border.top];
 
-  for (const line of wrapText("LAST-LIGHT / DOMESTIC OPTIMIZATION LOG", innerWidth)) {
+  for (const line of wrapText("PORCH CAMERA / NEIGHBORHOOD WATCH LOG", innerWidth)) {
     output.push(boxRow(`${ANSI.bold}${ANSI.cyan}${line}${ANSI.reset}`, innerWidth));
   }
 
@@ -229,7 +229,7 @@ function renderFancy(width) {
   }
 
   output.push(border.middle);
-  for (const line of wrapText("occupant: not found · environment: still adapting", innerWidth)) {
+  for (const line of wrapText("location: the porch · camera: inside the house", innerWidth)) {
     output.push(boxRow(`${ANSI.dim}${line}${ANSI.reset}`, innerWidth));
   }
 
